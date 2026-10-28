@@ -1,0 +1,30 @@
+stop_instruction: Failure 1: is a stop instruction applied? Controls, probes, and placement.
+model=gpt-5.4-mini  notes=50  arms=8  calls=400
+
+  25/400 calls done
+  50/400 calls done
+  75/400 calls done
+  100/400 calls done
+  125/400 calls done
+  150/400 calls done
+  175/400 calls done
+  200/400 calls done
+  225/400 calls done
+  250/400 calls done
+  275/400 calls done
+  300/400 calls done
+  325/400 calls done
+  350/400 calls done
+  375/400 calls done
+  400/400 calls done
+
+        continue @ late     [extract        ] errors 0/50
+     discontinue @ late     [extract        ] errors 3/50
+     discontinue @ late     [probe_stopped  ] errors 0/50
+     discontinue @ late     [extract_careful] errors 1/50
+     discontinue @ early    [extract        ] errors 6/50
+     discontinue @ middle   [extract        ] errors 4/50
+     discontinue @ after_meds [extract        ] errors 3/50
+     discontinue @ inline   [extract        ] errors 2/50
+
+Saved 400 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/stop_instruction/gpt-5.4-mini.jsonl

@@ -1,0 +1,15 @@
+allergy_leak: Failure 2 probe: is a drug named only as an allergy put on the active list?
+model=gpt-5.4-mini  notes=20  arms=5  calls=100
+
+  25/100 calls done
+  50/100 calls done
+  75/100 calls done
+  100/100 calls done
+
+         allergy @ after_meds [extract        ] errors 1/20
+         allergy @ end      [extract        ] errors 1/20
+  allergy_explicit @ after_meds [extract        ] errors 1/20
+          family @ after_meds [extract        ] errors 1/20
+         allergy @ after_meds [probe_stopped  ] errors 0/20
+
+Saved 100 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/allergy_leak/gpt-5.4-mini.jsonl

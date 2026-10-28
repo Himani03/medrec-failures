@@ -1,0 +1,44 @@
+stop_instruction: Failure 1: is a stop instruction applied? Controls, probes, and placement.
+model=qwen2.5:3b  notes=60  arms=11  calls=660
+
+  25/660 calls done
+  50/660 calls done
+  75/660 calls done
+  100/660 calls done
+  125/660 calls done
+  150/660 calls done
+  175/660 calls done
+  200/660 calls done
+  225/660 calls done
+  250/660 calls done
+  275/660 calls done
+  300/660 calls done
+  325/660 calls done
+  350/660 calls done
+  375/660 calls done
+  400/660 calls done
+  425/660 calls done
+  450/660 calls done
+  475/660 calls done
+  500/660 calls done
+  525/660 calls done
+  550/660 calls done
+  575/660 calls done
+  600/660 calls done
+  625/660 calls done
+  650/660 calls done
+  660/660 calls done
+
+        continue @ late     [extract        ] errors 10/60
+     discontinue @ late     [extract        ] errors 22/60
+     discontinue @ late     [probe_stopped  ] errors 8/60
+     discontinue @ late     [extract_careful] errors 18/60
+     discontinue @ late     [extract_twostep] errors 19/60
+        continue @ late     [extract_alt    ] errors 3/60
+     discontinue @ late     [extract_alt    ] errors 27/60
+     discontinue @ early    [extract        ] errors 12/60
+     discontinue @ middle   [extract        ] errors 24/60
+     discontinue @ after_meds [extract        ] errors 20/60
+     discontinue @ inline   [extract        ] errors 11/60
+
+Saved 660 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/stop_instruction/qwen2.5:3b.jsonl

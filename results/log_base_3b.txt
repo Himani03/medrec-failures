@@ -1,0 +1,13 @@
+baseline: Broad probe: extract the list from each real note, unchanged.
+model=qwen2.5:3b  notes=148  arms=1  calls=148
+
+  25/148 calls done
+  50/148 calls done
+  75/148 calls done
+  100/148 calls done
+  125/148 calls done
+  148/148 calls done
+
+        original @ none     [extract        ] errors 34/148
+
+Saved 148 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/baseline/qwen2.5:3b.jsonl

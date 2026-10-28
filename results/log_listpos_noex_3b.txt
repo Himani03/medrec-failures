@@ -1,0 +1,26 @@
+list_position_noex: Failure 2 mechanism: same top/bottom test with no format example in the prompt.
+model=qwen2.5:3b  notes=134  arms=3  calls=402
+
+  25/402 calls done
+  50/402 calls done
+  75/402 calls done
+  100/402 calls done
+  125/402 calls done
+  150/402 calls done
+  175/402 calls done
+  200/402 calls done
+  225/402 calls done
+  250/402 calls done
+  275/402 calls done
+  300/402 calls done
+  325/402 calls done
+  350/402 calls done
+  375/402 calls done
+  400/402 calls done
+  402/402 calls done
+
+        original @ none     [extract_noex   ] errors 17/134
+         reorder @ first    [extract_noex   ] errors 21/134
+         reorder @ last     [extract_noex   ] errors 20/134
+
+Saved 402 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/list_position_noex/qwen2.5:3b.jsonl

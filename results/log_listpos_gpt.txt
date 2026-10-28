@@ -1,0 +1,16 @@
+list_position: Failure 2: is a real active drug dropped more often when it sits late in a long list?
+model=gpt-5.4-mini  notes=58  arms=3  calls=174
+
+  25/174 calls done
+  50/174 calls done
+  75/174 calls done
+  100/174 calls done
+  125/174 calls done
+  150/174 calls done
+  174/174 calls done
+
+        original @ none     [extract        ] errors 0/58
+         reorder @ first    [extract        ] errors 0/58
+         reorder @ last     [extract        ] errors 0/58
+
+Saved 174 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/list_position/gpt-5.4-mini.jsonl

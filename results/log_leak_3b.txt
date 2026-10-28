@@ -1,0 +1,27 @@
+example_leak: Extra finding: does the model copy drugs from the prompt's format example into real lists?
+model=qwen2.5:3b  notes=148  arms=3  calls=444
+
+  25/444 calls done
+  50/444 calls done
+  75/444 calls done
+  100/444 calls done
+  125/444 calls done
+  150/444 calls done
+  175/444 calls done
+  200/444 calls done
+  225/444 calls done
+  250/444 calls done
+  275/444 calls done
+  300/444 calls done
+  325/444 calls done
+  350/444 calls done
+  375/444 calls done
+  400/444 calls done
+  425/444 calls done
+  444/444 calls done
+
+        original @ none     [extract        ] errors 34/148
+        original @ none     [extract_swap   ] errors 21/148
+        original @ none     [extract_noex   ] errors 22/148
+
+Saved 444 rows -> /Users/himani/Documents/ChatGPT/alterra/medrec-failures/results/example_leak/qwen2.5:3b.jsonl
