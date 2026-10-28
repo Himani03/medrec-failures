@@ -9,7 +9,7 @@ Two reproducible ways a local LLM gets a patient's **active medication list** wr
 
 ![Workflow](figures/workflow.png)
 
-The results, with numbers, are in [`WRITEUP.md`](WRITEUP.md) (PDF: `WRITEUP.pdf`). The talk is `slides.pptx`, and a plain-language guide to every number is in `EXPLAINER.md`. Every table is in `results/summary_*.md` and every figure is in `figures/`.
+The results, with numbers, are in [`WRITEUP.md`](WRITEUP.md) (PDF: `WRITEUP.pdf`). The talk is `slides.pptx`. Every table is in `results/summary_*.md` and every figure is in `figures/`.
 
 ## Quick start
 
